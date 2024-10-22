@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ODAG Scrubber Tool</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <%- include('header') %>
+    <div class="container">
+        <h1>ODAG Scrubber Tool</h1>
+        <form action="/odag/upload" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Upload Excel File:</label>
+                <input type="file" class="form-control" id="file" name="file" required>
+            </div>
+            <div class="form-group">
+                <label for="startDate">Start Date:</label>
+                <input type="date" class="form-control" id="startDate" name="startDate">
+            </div>
+            <div class="form-group">
+                <label for="endDate">End Date:</label>
+                <input type="date" class="form-control" id="endDate" name="endDate">
+            </div>
+            <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+    </div>
+    <%- include('footer') %>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.card-header h3 {
+  margin: 0;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e7e7e7;
+  padding: 20px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer .container {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.btn-primary, .btn-secondary {
+  width: 100%;
+}
+
+.articles {
+  margin-top: 30px;
+}
+
+.articles h2 {
+  margin-bottom: 20px;
+}
+
+.articles ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.articles li {
+  margin-bottom: 10px;
+}
+
+.articles a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.articles a:hover {
+  text-decoration: underline;
+}

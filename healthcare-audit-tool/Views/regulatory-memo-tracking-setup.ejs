@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regulatory Memo Tracking Setup</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <%- include('header') %>
+    <div class="container">
+        <h1>Regulatory Memo Tracking Setup</h1>
+        <form action="/dashboard/regulatory-memo-tracking" method="POST">
+            <div class="form-group">
+                <label for="departments">Departments:</label>
+                <input type="text" class="form-control" id="departments" name="departments" required>
+            </div>
+            <div class="form-group">
+                <label for="leaderName">Leader Name:</label>
+                <input type="text" class="form-control" id="leaderName" name="leaderName" required>
+            </div>
+            <div class="form-group">
+                <label for="leaderEmail">Leader Email:</label>
+                <input type="email" class="form-control" id="leaderEmail" name="leaderEmail" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <%- include('footer') %>
+</body>
+</html>
